@@ -151,8 +151,8 @@ namespace config
 
   uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0x3abf80;  // NaTa
   uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 0x2ebf80; //NaTA
-  uint16_t const P2P_DEFAULT_PORT = 19733;
-  uint16_t const RPC_DEFAULT_PORT = 19734;
+  uint16_t const P2P_DEFAULT_PORT = 19722;
+  uint16_t const RPC_DEFAULT_PORT = 19723;
 
   boost::uuids::uuid const NETWORK_ID = { {
       0x04, 0x06, 0xdf, 0xce, 0xfc, 0x7c, 0x27, 0x4a, 0x24, 0xd4, 0xf3, 0x8d, 0x42, 0x44, 0x60, 0xa8
@@ -164,8 +164,8 @@ namespace config
   {
     uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0x2bbf80; // NaT4
     uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 0x2a3f80; // NaT1
-    uint16_t const P2P_DEFAULT_PORT = 29733;
-    uint16_t const RPC_DEFAULT_PORT = 29734;
+    uint16_t const P2P_DEFAULT_PORT = 29722;
+    uint16_t const RPC_DEFAULT_PORT = 29723;
     boost::uuids::uuid const NETWORK_ID = { {
         0x12, 0x04, 0x06, 0xdf, 0xce, 0xfc, 0x7c, 0x27, 0x4a, 0x24, 0xd4, 0xf3, 0x8d, 0x42, 0x44, 0x60
       } }; // Bender's daydream
